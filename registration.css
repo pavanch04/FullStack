@@ -1,0 +1,65 @@
+body{
+    background-image: url('pav.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    font-size: 30px;
+    margin:20px;
+    
+  
+    
+}
+
+#email-id{  
+    border:2px solid black;
+    background-color: white;
+    
+    margin-top:7px;
+    margin-bottom:7px;
+}
+#email:focus{
+    color:black;
+    border:0;
+    
+}
+#fname{
+    border:2px solid black;
+    background-color:white;
+   
+    margin-top:7px;
+    margin-bottom:7px;
+}
+#fname:focus{
+    color:black;
+    border:0;
+   
+}
+#password{
+    border:2px solid black;
+    background-color:white;
+   
+    margin-top:7px;
+    margin-bottom:7px;
+}
+#password:focus{
+    color:black;
+    border:0;
+   
+}
+#lname{
+    border:2px solid black;
+    background-color:white;
+   
+    margin-top:7px;
+    margin-bottom:7px;
+}
+#lname:focus{
+    color:black;
+    border:0;
+   
+}
+
+.gow{
+    width: 400px;
+    margin-left: 100px;
+}

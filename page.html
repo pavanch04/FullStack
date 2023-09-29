@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-image: url('pav.jpeg');
+        display: flex;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    .center{
+        
+        
+        border-radius: 10px;
+        border: 3px solid rgb(58, 189, 115);
+        float: left;
+        padding: 15px;
+        margin: 200px;
+    }
+    
+    
+    .form input{
+        height:15px;
+        width: 150px;
+        padding: 0 10px;
+        border: 10px black;
+    }
+    .form button{
+        background-color:lightgreen;
+        margin: 45px 0 30px 0; 
+        height: 45px; 
+        border-radius: 10px;
+        width: 100px; 
+        font-size: 20px;
+        font-weight: bold;  
+        cursor: pointer;
+    }
+    .form button:hover{ 
+        background: white;
+        color: rgb(71, 209, 64);
+    }
+    
+    
+
+</style>
+<body > 
+    <div class="center">
+        <h1 class="header">USER LOGIN</h1>
+        <form class="form" action="loginsuccess.html" method="post" name="form" onsubmit="login(event)">
+            <div class="font">Email or Phone Number</div><br>
+            <input type="text" name="email" id="email"><br>
+            <div class="font">password</div><br>
+            <input type="password" name="password" id="password"><br>
+            <button type="submit">LOGIN</button>
+        </form>
+    </div>
+    <script src="loginvalid.js" type="module"></script>
+</body>
+</html>
